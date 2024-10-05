@@ -1,0 +1,26 @@
+{
+  "name": "airbnb-homepage-backend",
+  "version": "1.0.0",
+  "description": "bakend for airbnb homepage clone using node js, express js and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "mern",
+    "airbnb"
+  ],
+  "author": "Md Abdus Salam Suhag",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
